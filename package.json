@@ -1,0 +1,33 @@
+{
+  "name": "stack-adt",
+  "version": "0.0.0",
+  "description": "Stack ADT for browser and nodejs",
+  "main": "dist/stack-adt.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://pasangsherpa@github.com/pasangsherpa/stack-adt.git"
+  },
+  "keywords": [
+    "Stack",
+    "ADT",
+    "Abstract",
+    "Data",
+    "Type"
+  ],
+  "author": "Pasang Sherpa <pgyalzen@gmail.com> (https://github.com/pasangsherpa)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pasangsherpa/stack-adt/issues"
+  },
+  "homepage": "https://github.com/pasangsherpa/stack-adt",
+  "devDependencies": {
+    "grunt": "^0.4.1",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "load-grunt-tasks": "^0.4.0"
+  }
+}
