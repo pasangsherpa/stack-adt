@@ -8,14 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://pasangsherpa@github.com/pasangsherpa/stack-adt.git"
+    "url": "https://github.com/pasangsherpa/stack-adt.git"
   },
   "keywords": [
-    "Stack",
-    "ADT",
-    "Abstract",
-    "Data",
-    "Type"
+    "stack",
+    "adt",
+    "datatype",
+    "abstractdatatype"
   ],
   "author": "Pasang Sherpa <pgyalzen@gmail.com> (https://github.com/pasangsherpa)",
   "license": "MIT",
