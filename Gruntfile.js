@@ -10,8 +10,8 @@ module.exports = function (grunt) {
 				'* v<%= pkg.version %> - ' +
 				'<%= grunt.template.today("yyyy-mm-dd") %>\n' +
 				'<%= pkg.homepage ? "* " + pkg.homepage + "\\n" : "" %>' +
-				'* (c) <%= pkg.author.name %>;' +
-				' <%= pkg.license %> License\n' +
+				'* (c) <%= pkg.author %>\n' +
+				'* <%= pkg.license %> License\n' +
 				'*/\n'
 		},
 		concat: {
