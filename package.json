@@ -4,7 +4,13 @@
   "description": "Stack ADT for browser and nodejs",
   "main": "dist/stack-adt.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "mocha"
+  },
+  "files": [
+    "dist/stack-adt.js"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
   },
   "repository": {
     "type": "git",
