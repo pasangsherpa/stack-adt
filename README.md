@@ -61,7 +61,7 @@ Adds one element to the top of the stack.
 
 Type: `object`
 
-element to be pushed onto stack.
+the element to be pushed onto stack.
 
 #### .pop()
 
@@ -69,7 +69,7 @@ Removes and returns the top element from the stack.
 
 Type: `object`
 
-element removed from the top of the stack.
+the element removed from the top of the stack.
 
 #### .peek()
 
@@ -77,7 +77,7 @@ Returns without removing the top element of the stack.
 
 Type: `object`
 
-element on top of the stack.
+the element on top of the stack.
 
 #### .isEmpty()
 
@@ -89,11 +89,11 @@ whether or not the stack is empty.
 
 #### .size()
 
-Returns the number of elements in this stack.
+Returns the number of elements in the stack.
 
 Type: `int`
 
-number of element in the stack.
+the number of element in the stack.
 
 
 ## License
