@@ -7,8 +7,8 @@
 
 Download the [production version][min] or the [development version][max].
 
-[min]: https://github.com/pasangsherpa/stack-adt.js/raw/gh-pages/dist/stack-adt.min.js
-[max]: https://github.com/pasangsherpa/stack-adt.js/raw/gh-pages/dist/stack-adt.js
+[min]: https://raw.githubusercontent.com/pasangsherpa/stack-adt/master/dist/stack-adt.min.js
+[max]: https://raw.githubusercontent.com/pasangsherpa/stack-adt/master/dist/stack-adt.js
 
 ```sh
 $ npm install --save stack-adt
@@ -34,7 +34,7 @@ stack.size();
 ```
 
 
-## API
+## Documentation
 
 ### Stack()
 
@@ -49,6 +49,7 @@ Creates an empty stack using the specified capacity.
 Type: `int`
 
 initialCapacity represents the specified capacity.
+
 
 ### Methods
 
