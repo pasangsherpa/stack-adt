@@ -25,12 +25,35 @@ $ bower install --save stack-adt
 var Stack = require('stack-adt');
 var stack = new Stack();
 
-stack.push(1);
+stack.push(10);
 stack.peek();
 stack.isEmpty();
+stack.push("foo");
+stack.push({hello: "world"});
+stack.peek().hello; // Outputs "world"
+stack.push(function(){ console.log("hello") });
+stack.peek()(); // Outputs "world"
 stack.size();
 stack.pop();
 stack.size();
+```
+```js
+<script type="text/javascript" src="https://raw.githubusercontent.com/pasangsherpa/stack-adt/master/dist/stack-adt.min.js"></script>
+<script type="text/javascript"> 
+  var stack = new Stack();
+
+  stack.push(10);
+  stack.peek();
+  stack.isEmpty();
+  stack.push("foo");
+  stack.push({hello: "world"});
+  stack.peek().hello; // Outputs "world"
+  stack.push(function(){ console.log("hello") });
+  stack.peek()(); // Outputs "world"
+  stack.size();
+  stack.pop();
+  stack.size();
+</script>
 ```
 
 
@@ -38,7 +61,7 @@ stack.size();
 
 ### Stack()
 
-Creates an empty stack using the default capacity.
+Creates an empty stack with infinite capacity.
 
 ### Stack(initialCapacity)
 
@@ -55,7 +78,7 @@ initialCapacity represents the specified capacity.
 
 #### .push(element)
 
-Adds one element to the top of the stack.
+Adds one element to the top of the stack and returns the new size of the stack.
 
 ##### element
 
