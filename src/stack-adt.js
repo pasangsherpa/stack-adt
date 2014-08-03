@@ -50,7 +50,7 @@
             return {
                 hasNext: hasNext,
                 next: next
-            }
+            };
         }
 
         return {
