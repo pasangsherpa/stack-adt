@@ -1,6 +1,6 @@
 {
     "name": "stack-adt",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "description": "Stack ADT for browser and nodejs",
     "main": "dist/stack-adt.js",
     "scripts": {
