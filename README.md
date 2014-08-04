@@ -4,7 +4,7 @@
 
 The **Stack** class represents a last-in-first-out (LIFO) stack of generic items. It supports the usual *push* and *pop* operations, along with methods for peeking at the top item, testing if the stack is empty, and iterating through the items in LIFO order.
 
-All stack operations except iteration are constant time.
+All stack operations except iteration and empty are constant time.
 
 
 ## Install
@@ -47,6 +47,8 @@ while(itr.hasNext()) {
   console.log(itr.next());
 }
 
+stack.empty();
+
 ```
 ```js
 <script type="text/javascript" src="https://raw.githubusercontent.com/pasangsherpa/stack-adt/master/dist/stack-adt.min.js"></script>
@@ -70,6 +72,8 @@ while(itr.hasNext()) {
   while(itr.hasNext()) {
     console.log(itr.next());
   }
+
+  stack.empty();
 </script>
 ```
 
@@ -134,6 +138,10 @@ Returns the number of elements in the stack.
 Type: `int`
 
 the number of element in the stack.
+
+#### .empty() 
+
+Removes all element from the the queue and returns the new size of the queue.
 
 #### .iterator
 

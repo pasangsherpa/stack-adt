@@ -59,12 +59,12 @@ module.exports = function(grunt) {
         'uglify'
     ]);
     grunt.registerTask('release', [
-        'build:patch:default'
+        'build:patch:auto-version'
     ]);
     grunt.registerTask('release:minor', [
-        'build:minor:default'
+        'build:minor:auto-version'
     ]);
     grunt.registerTask('release:major', [
-        'build:major:default'
+        'build:major:auto-version'
     ]);
 };
