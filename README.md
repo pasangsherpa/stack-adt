@@ -41,7 +41,7 @@ stack.size();
 stack.pop();
 stack.size();
 
-var itr = stack.iterator
+var itr = stack.iterator;
 
 while(itr.hasNext()) {
   console.log(itr.next());
@@ -67,7 +67,7 @@ stack.empty();
   stack.pop();
   stack.size();
 
-  var itr = stack.iterator
+  var itr = stack.iterator;
 
   while(itr.hasNext()) {
     console.log(itr.next());
